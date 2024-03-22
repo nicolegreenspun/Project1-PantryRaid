@@ -26,10 +26,24 @@
                     <option value="lunch">Lunch</option>
                     <option value="dinner">Dinner</option>
                 </select>
+                <select id="missingIngredients" class="border p-2 mb-4">
+                    <option value="">Allowed Missing Ingredients</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
                 <button type="submit" class="bg-blue-500 text-white p-2 rounded-full">Search</button>
             </form>
         </div>
         <div id="searchResults" class="hidden mt-8 mx-0 grid-flow-row p-4 max-w-md text-center items-center">
+            <h2 id="resultsTitle" class="text-xl font-bold mb-4">Your Results</h2>
             <h2 class="text-xl grid-flow-row font-bold mb-4">Your Results</h2>
             <div id="recipes" class="h-16 w-1/2 p-4 mx-auto text-center text-wrap font-semibold items-center"></div>
         </div>
